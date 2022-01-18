@@ -11,7 +11,7 @@ Documenting progress:
     - installed node from nvm (https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating)
         - (can also do this from a node installer)
         - had to create ~/.bash_profile file
-        - MUST run source ~/.bash_profile to save ?
+        - MUST run source ~/.bash_profile to save
     - ran in CLI: nvm install node
     - ran in CLI within project: 'npm init' 
         - it proceeds to ask questions. hit enter for all
@@ -22,6 +22,13 @@ Documenting progress:
     - installed Live Server extension to VS code
     - installed React to project with "npm install --save react react-dom"
 
+01/17/2022 (Windows):
+    - downloaded gitbash CLI from https://git-scm.com/download/win
+    - installed node from nvm (https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating)
+        - had to create ~/.bash_profile file
+        - MUST run source ~/.bash_profile to save
+    - ran in CLI: nvm install node
+    - ran in CLI within project: 'npm install' to download packages listed in package.json
 
 
 Questions:
