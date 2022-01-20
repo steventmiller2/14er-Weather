@@ -36,6 +36,7 @@ Documenting progress:
     - added a node sever.js file (https://stackoverflow.com/questions/38699493/send-a-index-html-file-when-server-is-created)
     - had to install express
     - added a react App.js structure
+    - TODO: use webpack and babel instead of node for server and npm start script
 
 Questions:
     - sudo
