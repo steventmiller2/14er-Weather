@@ -21,8 +21,10 @@ Documenting progress:
     - added <script src="index.js"> to index.html
     - installed Live Server extension to VS code
     - installed React to project with "npm install --save react react-dom"
+    - uploaded project to GitHub with instructions (https://stackoverflow.com/questions/51997057/upload-local-repository-to-github-com)
 
 01/17/2022 (Windows):
+    - cloned and pulled in project from GitHub
     - downloaded gitbash CLI from https://git-scm.com/download/win
     - installed node from nvm (https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating)
         - had to create ~/.bash_profile file
