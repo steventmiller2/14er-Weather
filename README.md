@@ -32,6 +32,10 @@ Documenting progress:
     - ran in CLI: nvm install node
     - ran in CLI within project: 'npm install' to download packages listed in package.json
 
+01/19/2021 (Mac):
+    - added a node sever.js file (https://stackoverflow.com/questions/38699493/send-a-index-html-file-when-server-is-created)
+    - had to install express
+    - added a react App.js structure
 
 Questions:
     - sudo
