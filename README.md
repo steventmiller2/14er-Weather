@@ -32,15 +32,18 @@ Documenting progress:
     - ran in CLI: nvm install node
     - ran in CLI within project: 'npm install' to download packages listed in package.json
 
-01/19/2021 (Mac):
+01/19/2022 (Mac):
     - added a node sever.js file (https://stackoverflow.com/questions/38699493/send-a-index-html-file-when-server-is-created)
     - had to install express
     - added a react App.js structure
     - TODO: use webpack and babel instead of node for server and npm start script (https://stackoverflow.com/questions/57288079/syntaxerror-unexpected-identifier-importing-react-javascript)
     https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-nodejs-with-react-and-jsx?view=vs-2022
 
-01/23/2021:
-    - Node.js Essential Training LIL
+01/23/2022 (Mac):
+    - Node.js Essential Training LIL - process (global module)
+
+02/06/2022 (Mac):
+    - Node.js Essential Training LIL - core modules
 
 Questions:
     - sudo

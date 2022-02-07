@@ -21,7 +21,7 @@ const timerFinished = () => {
   console.log("done")
 };
 
-//save the value returned by the setInterval function so we can
-//clear this specific interval in the timerFinished function
+/* save the value returned by the setInterval function so we can
+   clear this specific interval in the timerFinished function */
 const interval = setInterval(incTime, waitInterval);
 setTimeout(timerFinished, waitTime);
