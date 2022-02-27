@@ -1,0 +1,7 @@
+.banner {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(5, 5, 83);
+  text-align: center;
+  color: white;
+}

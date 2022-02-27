@@ -5,7 +5,7 @@ export const HomePage = () => {
 		<React.Fragment>
 			<h1>Hello, welcome</h1>
 			<p>
-				ladida
+				to the HomePage
 			</p>
 		</React.Fragment>
 	)

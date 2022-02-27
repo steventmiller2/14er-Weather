@@ -46,9 +46,10 @@ Documenting progress:
 02/26/2022 (Mac):
     - Adding Typescript, Babel, Webpack to repo (https://codytechs.com/modern-web-development-with-typescript-babel-and-webpack/)
     - Webpack tutorial (INTERMEDIATE): https://linguinecode.com/post/how-to-setup-webpack-dev-server-react-babel
-    - Webpack vs create-react-app (SIMPLE): https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/
+    - Webpack vs create-react-app (SIMPLE - wish i found this months ago!): https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/
 
-
+02/27/2022 (Mac):
+    - installed css-loader and style-loader and added them to webpack.config
 
 Questions:
     - sudo

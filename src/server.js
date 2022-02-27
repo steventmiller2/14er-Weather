@@ -1,3 +1,5 @@
+//server.js will be used for strict backend services. not compatible with React app
+
 var express = require('express');
 var app =  express();
 const port = process.env.PORT || 3000
