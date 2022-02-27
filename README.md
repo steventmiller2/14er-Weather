@@ -1,7 +1,5 @@
 Run Project Live:
-1. use ctrl+shift+p to open command prompt in vscode
-2. then type 'live server: open with live server' to start server
-3. type 'live server: stop live server' to stop it (can use bottom toolbar also)
+1. npm start
 
 Documenting progress:
 12/08/2021 (Mac): 
@@ -44,6 +42,13 @@ Documenting progress:
 
 02/06/2022 (Mac):
     - Node.js Essential Training LIL - core modules
+
+02/26/2022 (Mac):
+    - Adding Typescript, Babel, Webpack to repo (https://codytechs.com/modern-web-development-with-typescript-babel-and-webpack/)
+    - Webpack tutorial (INTERMEDIATE): https://linguinecode.com/post/how-to-setup-webpack-dev-server-react-babel
+    - Webpack vs create-react-app (SIMPLE): https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/
+
+
 
 Questions:
     - sudo

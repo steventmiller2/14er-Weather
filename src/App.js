@@ -1,11 +1,11 @@
-import {Component} from "react";
+import React, { Component } from 'react'
 import {HomePage} from './pages/HomePage';
-import './App.css';
 
 class App extends Component {
 	render() {
 		return (
-			<div className="App">
+			<div>
+				<h1>Webpack + React setup!</h1>
 				<HomePage/>
 			</div>
 		);
