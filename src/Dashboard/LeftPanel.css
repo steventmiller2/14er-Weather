@@ -1,0 +1,4 @@
+.leftPanel {
+  grid-column: 1;
+  background-color: rgba(64, 155, 224, 0.42);
+}

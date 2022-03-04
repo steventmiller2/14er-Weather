@@ -8,7 +8,7 @@ class Banner extends React.Component {
 
   render() {
     return(
-      <div className="banner">Banner</div>
+      <div className="banner">14er Weather</div>
     )
   }
 }

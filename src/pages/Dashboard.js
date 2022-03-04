@@ -1,5 +1,7 @@
 import React from "react";
+import './Dashboard.css';
 import Banner from "../Dashboard/Banner";
+import Body from '../Dashboard/Body';
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -8,8 +10,9 @@ class Dashboard extends React.Component {
 
   render() {
     return(
-      <div style={{display: 'flex'}}>
+      <div className='dashboard'>
         <Banner></Banner>
+        <Body></Body>
       </div>
     )
   }

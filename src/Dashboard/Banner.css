@@ -1,7 +1,9 @@
 .banner {
-  height: 50px;
-  width: 100%;
-  background-color: rgb(5, 5, 83);
+  min-height: 5%;
+  background-color: rgb(17, 61, 126);
   text-align: center;
+  font: 2em sans-serif;
   color: white;
+  padding: 1%;
+  grid-row: 1;
 }

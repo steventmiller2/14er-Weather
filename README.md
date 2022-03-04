@@ -50,6 +50,10 @@ Documenting progress:
 
 02/27/2022 (Mac):
     - installed css-loader and style-loader and added them to webpack.config
+    - added Dashboard and Banner React components
+
+03/04/2022 (Mac):
+    - fixed device height issue, added grid for banner, left panel, main content
 
 Questions:
     - sudo
