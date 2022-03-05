@@ -54,6 +54,11 @@ Documenting progress:
 
 03/04/2022 (Mac):
     - fixed device height issue, added grid for banner, left panel, main content
+    - subscribed to weather api
+
+03/05/2022 (Mac):
+    - dialed in weather api url calls
+    - added lat/longs for 14ers
 
 Questions:
     - sudo

@@ -1,0 +1,234 @@
+{
+  "Blanca Peak": {
+    "lat": 37.577473,
+    "long": -105.485443
+  },
+  "Capitol Peak": {
+    "lat": 39.150166,
+    "long": -107.083221
+  },
+  "Castle Peak": {
+    "lat": 39.009647,
+    "long": -106.86144
+  },
+  "Challenger Point": {
+    "lat": 37.980267,
+    "long": -105.606766
+  },
+  "Conundrum Peak": {
+    "lat": 39.01563,
+    "long": -106.86294
+  },
+  "Crestone Needle": {
+    "lat": 37.964737,
+    "long": -105.576683
+  },
+  "Crestone Peak": {
+    "lat": 37.966972,
+    "long": -105.585304
+  },
+  "Culebra Peak": {
+    "lat": 37.122173,
+    "long": -105.185593
+  },
+  "El Diente Peak": {
+    "lat": 37.839275,
+    "long": -108.005219
+  },
+  "Ellingwood Point": {
+    "lat": 37.582508,
+    "long": -105.492569
+  },
+  "Grays Peak": {
+    "lat": 39.633820,
+    "long": -105.817520
+  },
+  "Handies Peak": {
+    "lat": 37.913021,
+    "long": -107.504478
+  },
+  "Humboldt Peak": {
+    "lat": 37.976105,
+    "long": -105.555351
+  },
+  "Huron Peak": {
+    "lat": 38.945423,
+    "long": -106.438126
+  },
+  "Kit Carson Peak": {
+    "lat": 37.979759,
+    "long": -105.602562
+  },
+  "La Plata Peak": {
+    "lat": 39.029251,
+    "long": -106.473145
+  },
+  "Little Bear Peak": {
+    "lat": 37.566624,
+    "long": -105.497162
+  },
+  "Longs Peak": {
+    "lat": 40.254902,
+    "long": -105.615738
+  },
+  "Maroon Peak": {
+    "lat": 39.070713,
+    "long": -106.989113
+  },
+  "Missouri Mountain": {
+    "lat": 38.947559,
+    "long": -106.378471
+  },
+  "Mt. Antero": {
+    "lat": 38.674088,
+    "long": -106.246201
+  },
+  "Mt. Belford": {
+    "lat": 38.960575,
+    "long": -106.360832
+  },
+  "Mt. Bierstadt": {
+    "lat": 39.582638,
+    "long": -105.668610
+  },
+  "Mt. Bross": {
+    "lat": 39.335060,
+    "long": -106.107376
+  },
+  "Mt. Cameron": {
+    "lat": 39.346844,
+    "long": -106.118576
+  },
+  "Mt. Columbia": {
+    "lat": 38.903957,
+    "long": -106.297485
+  },
+  "Mt. Democrat": {
+    "lat": 39.339542,
+    "long": -106.139946
+  },
+  "Mt. Elbert": {
+    "lat": 39.118075,
+    "long": -106.445417
+  },
+  "Mt. Eolus": {
+    "lat": 37.621948,
+    "long": -107.622498
+  },
+  "Mt. Evans": {
+    "lat": 39.588360,
+    "long": -105.643333
+  },
+  "Mt. Harvard": {
+    "lat": 38.924328,
+    "long": -106.320618
+  },
+  "Mt. Lincoln": {
+    "lat": 39.351391,
+    "long": -106.111404
+  },
+  "Mt. Lindsey": {
+    "lat": 37.583801,
+    "long": -105.444763
+  },
+  "Mt. Massive": {
+    "lat": 39.187298,
+    "long": -106.475548
+  },
+  "Mt. of the Holy Cross": {
+    "lat": 39.466713,
+    "long": -106.481766
+  },
+  "Mt. Oxford": {
+    "lat": 38.964680,
+    "long": -106.338432
+  },
+  "Mt. Princeton": {
+    "lat": 38.749062,
+    "long": -106.242432
+  },
+  "Mt. Shavano": {
+    "lat": 38.619083,
+    "long": -106.239296
+  },
+  "Mt. Sherman": {
+    "lat": 39.225006,
+    "long": -106.169945
+  },
+  "Mt. Sneffels": {
+    "lat": 38.003605,
+    "long": -107.792229
+  },
+  "Mt. Wilson": {
+    "lat": 37.839310,
+    "long": -107.991570
+  },
+  "Mt. Yale": {
+    "lat": 38.844051,
+    "long": -106.313965
+  },
+  "North Eolus": {
+    "lat": 37.625416,
+    "long": -107.620995
+  },
+  "North Maroon Peak": {
+    "lat": 39.076077,
+    "long": -106.987267
+  },
+  "Pikes Peak": {
+    "lat": 38.840542,
+    "long": -105.044357
+  },
+  "Pyramid Peak": {
+    "lat": 39.071545,
+    "long": -106.950188
+  },
+  "Quandary Peak": {
+    "lat": 39.397236,
+    "long": -106.106430
+  },
+  "Redcloud Peak": {
+    "lat": 37.940880,
+    "long": -107.421654
+  },
+  "San Luis Peak": {
+    "lat": 37.986897,
+    "long": -106.931389
+  },
+  "Snowmass Mountain": {
+    "lat": 39.118809,
+    "long": -107.066528
+  },
+  "Sunlight Peak": {
+    "lat": 37.627285,
+    "long": -107.595894
+  },
+  "Sunshine Peak": {
+    "lat": 37.922604,
+    "long": -107.425606
+  },
+  "Tabeguache Peak": {
+    "lat": 38.625622,
+    "long": -106.250710
+  },
+  "Torreys Peak": {
+    "lat": 39.642742,
+    "long": -105.821259
+  },
+  "Uncompahgre Peak": {
+    "lat": 38.071507,
+    "long": -107.462166
+  },
+  "Wetterhorn Peak": {
+    "lat": 38.060593,
+    "long": -107.510834
+  },
+  "Wilson Peak": {
+    "lat": 37.859913,
+    "long": -107.984795
+  },
+  "Windom Peak": {
+    "lat": 37.621235,
+    "long": 107.591774
+  }
+}
