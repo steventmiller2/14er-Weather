@@ -52,17 +52,21 @@ Documenting progress:
     - installed css-loader and style-loader and added them to webpack.config
     - added Dashboard and Banner React components
 
-03/04/2022 (Mac):
+03/04/2022 (Mac) 3 hours:
     - fixed device height issue, added grid for banner, left panel, main content
     - subscribed to weather api
 
-03/05/2022 (Mac):
+03/05/2022 (Mac) 3 hours:
     - dialed in weather api url calls
     - added lat/longs for 14ers
 
-03/06/2022 (Mac):
+03/06/2022 (Mac) 4 hours:
     - converted js to jsx
     - added data table for 14er info
+    - created Mountain class using OOP
+    - added fetch call
+    - added jest (TODO: configure transform)
+    - TODO: create dev branch (move readme to a progress.md file)
 
 Questions:
     - sudo
