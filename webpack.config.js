@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   //This property defines where the application starts
-  entry:'./src/index.js',
+  entry:'./src/index.jsx',
     
   //This property defines the file path and the file name which will be used for deploying the bundled file
   output:{
@@ -15,7 +15,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/, 
+        test: /\.(js|jsx)$/, 
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'

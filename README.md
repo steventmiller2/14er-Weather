@@ -60,6 +60,10 @@ Documenting progress:
     - dialed in weather api url calls
     - added lat/longs for 14ers
 
+03/06/2022 (Mac):
+    - converted js to jsx
+    - added data table for 14er info
+
 Questions:
     - sudo
     - .bash & .bashrc & .zshrc

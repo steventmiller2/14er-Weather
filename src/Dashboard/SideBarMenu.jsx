@@ -1,18 +1,18 @@
 import React from "react";
-import "./LeftPanel.css";
+import "./SideBarMenu.css";
 
-class LeftPanel extends React.Component {
+class SideBarMenu extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     return(
-      <div className="leftPanel">
+      <div className="sideBar">
         
       </div>
     )
   }
 }
 
-export default LeftPanel;
+export default SideBarMenu;

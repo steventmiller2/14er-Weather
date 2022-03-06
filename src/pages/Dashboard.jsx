@@ -1,7 +1,7 @@
 import React from "react";
 import './Dashboard.css';
-import Banner from "../Dashboard/Banner";
-import Body from '../Dashboard/Body';
+import Banner from "../Dashboard/Banner.jsx";
+import Body from '../Dashboard/Body.jsx';
 
 class Dashboard extends React.Component {
   constructor(props) {

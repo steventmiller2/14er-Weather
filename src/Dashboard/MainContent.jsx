@@ -1,5 +1,6 @@
 import React from "react";
 import "./MainContent.css";
+import Table from './Table.jsx';
 
 class MainContent extends React.Component {
   constructor(props) {
@@ -8,7 +9,9 @@ class MainContent extends React.Component {
 
   render() {
     return(
-      <div className="mainContent"></div>
+      <div className="mainContent">
+        <Table/>
+      </div>
     )
   }
 }

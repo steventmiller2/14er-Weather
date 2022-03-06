@@ -1,8 +1,7 @@
 import React from "react";
 import "./Body.css";
-import './LeftPanel';
-import LeftPanel from "./LeftPanel";
-import MainContent from "./MainContent";
+import SideBarMenu from "./SideBarMenu.jsx";
+import MainContent from "./MainContent.jsx";
 
 class Body extends React.Component {
   constructor(props) {
@@ -12,7 +11,7 @@ class Body extends React.Component {
   render() {
     return(
       <div className="body">
-        <LeftPanel></LeftPanel>
+        <SideBarMenu></SideBarMenu>
         <MainContent></MainContent>
       </div>
     )
