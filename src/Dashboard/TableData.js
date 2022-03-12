@@ -39,8 +39,8 @@ export default class TableData {
   }
 }
 export const getColumns = () => {
-  let table = new TableData();
-  console.log(table.getMap());
+  let table = new TableData(); //temporary to test API
+  console.log(table.getMap()); //^same
   let columns = [
     { field: 'id', headerName: '14er', width: 150 },
     { field: 'elevation', headerName: 'Elevation', width: 100 },
