@@ -1,12 +1,13 @@
 import Mountain from "../../services/Mountain";
+import * as latlongs from '../../resources/latlongs.json';
 
 const mountains = {
-  // "Blanca Peak": {
-  //   "lat": 37.577473,
-  //   "long": -105.485443,
-  //   "elevationPeak": 14100,
-  //   "elevationBase": 10500
-  // },
+  "Blanca Peak": {
+    "lat": 37.577473,
+    "long": -105.485443,
+    "elevationPeak": 14100,
+    "elevationBase": 10500
+  },
   // "Capitol Peak": {
   //   "lat": 39.150166,
   //   "long": -107.083221,
@@ -21,10 +22,14 @@ const mountains = {
   }
 }
 
+// const mockMountainMap = new Map(
+
+// );
+
 export default class TableData {
   constructor() {
     this.peaks = new Map();
-    this.getMountains();
+
   }
 
   getMountains() {
@@ -34,28 +39,55 @@ export default class TableData {
     }
   }
 
+  getColumns() {
+    // let table = new TableData(); //temporary to test API
+    // console.log(table.getMap()); //^same
+    let columns = [
+      { field: 'id', headerName: '14er', width: 150 },
+      { field: 'elevation', headerName: 'Elevation', width: 100 },
+      { field: 'temp', headerName: 'Temperature (F)', width: 120 },
+      { field: 'tempFeelsLike', headerName: 'Feels Like Temp (F)', width: 150 }
+    ]
+    return columns;
+  }
+
+  //use getRowId prop??
+  getRows() {
+    this.getMountains();
+    let rows = [];
+    this.peaks.forEach( peak => {
+      console.log(peak.weather)
+      // let temperature = weather.temperature;
+      // let tempFeelsLike = weather.tempFeelsLike;
+      rows.push({ id: peak.name, elevation: peak.peakElevation, temp: peak.name,
+        tempFeelsLike: peak.name })
+        console.log(rows);
+    });
+
+    // this.peaks.forEach( async peak => {
+    //   let weather = await peak.updateWeather();
+    //   let data = JSON.stringify(weather);
+    //   // let temperature = weather.temperature;
+    //   // let tempFeelsLike = weather.tempFeelsLike;
+    //   rows.push({ id: peak.name, elevation: peak.peakElevation, temp: data,
+    //     tempFeelsLike: data })
+    //     console.log(rows);
+    // });
+    
+    // for(let [key, value] of this.peaks.entries()) {
+    //   let weather = await value.updateWeather();
+    //   console.log(weather);
+    //   // let temperature = weather.temperature;
+    //   // let tempFeelsLike = weather.tempFeelsLike;
+    //   rows.push({ id: key, elevation: value.peakElevation, temp: weather.temperature,
+    //     tempFeelsLike: weather.tempFeelsLike })
+    //     console.log(rows);
+    // }
+    console.log(rows);
+    return rows;    
+  }
+
   getMap() {
     return this.peaks;
   }
-}
-export const getColumns = () => {
-  let table = new TableData(); //temporary to test API
-  console.log(table.getMap()); //^same
-  let columns = [
-    { field: 'id', headerName: '14er', width: 150 },
-    { field: 'elevation', headerName: 'Elevation', width: 100 },
-    { field: 'temp', headerName: 'Temperature (F)', width: 120 }
-  ]
-  return columns;
-}
-
-//use getRowId prop??
-export const getRows = () => {
-  let rows = [
-    { id: 'Pikes Peak', elevation: '14,086', temp: 20 },
-    { id: 'Mt. Quandry', elevation: '14,151', temp: 6 },
-    { id: 'Columbia', elevation: '14,002', temp: 17 },
-    { id: 'Huron', elevation: '14,348', temp: -1 }
-  ]
-  return rows;
 }

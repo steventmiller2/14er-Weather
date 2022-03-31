@@ -66,6 +66,9 @@ Documenting progress:
     - TODO: create dev branch (move readme to a progress.md file)
     - Brandons idea: 'climbability score based on conditions' ex: Pikes peak in oct vs jan
 
+03/12,13,17 (Mac) 5 hours:
+    - tried and failed to understand Promise
+
 Questions:
     - sudo
     - .bash & .bashrc & .zshrc
