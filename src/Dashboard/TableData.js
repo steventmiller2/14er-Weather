@@ -1,5 +1,5 @@
 import Mountain from "../../services/Mountain";
-import * as latlongs from '../../resources/latlongs.json';
+// import * as latlongs from '../../resources/latlongs.json';
 
 const mountains = {
   "Blanca Peak": {
@@ -22,26 +22,20 @@ const mountains = {
   }
 }
 
-// const mockMountainMap = new Map(
-
-// );
-
 export default class TableData {
-  constructor() {
-    this.peaks = new Map();
 
+  constructor() {
+    this.peaks = {}
   }
 
   getMountains() {
     for( let mountain in mountains ) {
       let props = mountains[mountain];
-      this.peaks.set(mountain, new Mountain(mountain, props.lat, props.long, props.elevationPeak, props.elevationBase));
+      this.peaks[mountain] = new Mountain(mountain, props.lat, props.long, props.elevationPeak, props.elevationBase);
     }
   }
 
   getColumns() {
-    // let table = new TableData(); //temporary to test API
-    // console.log(table.getMap()); //^same
     let columns = [
       { field: 'id', headerName: '14er', width: 150 },
       { field: 'elevation', headerName: 'Elevation', width: 100 },
@@ -52,42 +46,22 @@ export default class TableData {
   }
 
   //use getRowId prop??
-  getRows() {
+  async getRows() {
     this.getMountains();
-    let rows = [];
-    this.peaks.forEach( peak => {
-      console.log(peak.weather)
-      // let temperature = weather.temperature;
-      // let tempFeelsLike = weather.tempFeelsLike;
-      rows.push({ id: peak.name, elevation: peak.peakElevation, temp: peak.name,
-        tempFeelsLike: peak.name })
-        console.log(rows);
-    });
-
-    // this.peaks.forEach( async peak => {
-    //   let weather = await peak.updateWeather();
-    //   let data = JSON.stringify(weather);
-    //   // let temperature = weather.temperature;
-    //   // let tempFeelsLike = weather.tempFeelsLike;
-    //   rows.push({ id: peak.name, elevation: peak.peakElevation, temp: data,
-    //     tempFeelsLike: data })
-    //     console.log(rows);
-    // });
-    
-    // for(let [key, value] of this.peaks.entries()) {
-    //   let weather = await value.updateWeather();
-    //   console.log(weather);
-    //   // let temperature = weather.temperature;
-    //   // let tempFeelsLike = weather.tempFeelsLike;
-    //   rows.push({ id: key, elevation: value.peakElevation, temp: weather.temperature,
-    //     tempFeelsLike: weather.tempFeelsLike })
-    //     console.log(rows);
-    // }
-    console.log(rows);
-    return rows;    
-  }
-
-  getMap() {
-    return this.peaks;
+    try {
+      const p = await Promise.all(Object.keys(this.peaks).map( async (key, ind) => {
+        const peak = this.peaks[key];
+        let weather = await peak.getWeather()
+        if (weather !== undefined){
+          return { id: peak.name, elevation: peak.peakElevation, temp: weather.temperature,
+            tempFeelsLike: weather.tempFeelsLike };
+        } else {
+          return undefined;
+        }
+      }));
+      return p; 
+    } catch (err) {
+      console.log(err)
+    }
   }
 }
