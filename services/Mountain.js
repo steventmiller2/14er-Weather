@@ -10,7 +10,6 @@ export default class Mountain {
     this.peakElevation = peakElevation;
     this.baseElevation = baseElevation;
     this.weather = undefined;
-    // this.fetchData();
   }
 
   async getWeather() { //TODO: add this conditional logic to only fetch if >15min

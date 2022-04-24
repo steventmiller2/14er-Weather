@@ -8,12 +8,12 @@ const mountains = {
     "elevationPeak": 14100,
     "elevationBase": 10500
   },
-  // "Capitol Peak": {
-  //   "lat": 39.150166,
-  //   "long": -107.083221,
-  //   "elevationPeak": 14200,
-  //   "elevationBase": 11500
-  // },
+  "Capitol Peak": {
+    "lat": 39.150166,
+    "long": -107.083221,
+    "elevationPeak": 14200,
+    "elevationBase": 11500
+  },
   "Pikes Peak": {
     "lat": 38.840542,
     "long": -105.044357,

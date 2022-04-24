@@ -10,30 +10,39 @@ class Table extends React.Component {
       rowData: [],
       colData: []
     };
-
-    // this.tableData = new TableData();
   }
 
-  componentDidMount() { //TODO: try a try-catch instead of a promise
-    const table = new TableData();
-    this.setState({
-      colData: table.getColumns()
-    })
+  async componentDidMount() {
+    try {
+      let tableData = new TableData();
+      this.setState({
+        rowData: await tableData.getRows(),
+        colData: tableData.getColumns()
+      });
+    } catch (err) {
+      console.log(err);
+    }
 
-    const p = new Promise((resolve, reject) => {
-      resolve(table.getRows());
-    });
+    //SAME LOGIC AS ABOVE BUT WITH PROMISE (DO NOT NEED ASYNC)
+    // const table = new TableData();
+    // this.setState({
+    //   colData: table.getColumns()
+    // })
 
-    p.then(data => {
-      console.log(data);
-      this.setState(state => {
-        return state.rowData = data;
-      }, console.log(this.state))
-    })
-    .catch((err) => console.log(err));
+    // const p = new Promise((resolve, reject) => {
+    //   resolve(table.getRows());
+    // });
+
+    // p.then(data => {
+    //   console.log(data);
+    //   this.setState(state => {
+    //     return state.rowData = data;
+    //   }, console.log(this.state))
+    // })
+    // .catch((err) => console.log(err));
   }
 
-  render() {
+  render() { console.log(this.state)
     return (
       <DataGrid
         columns={this.state.colData}

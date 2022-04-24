@@ -69,6 +69,13 @@ Documenting progress:
 03/12,13,17 (Mac) 5 hours:
     - tried and failed to understand Promise
 
+03/31 (Windows) 1 hour:
+    - worked with Aidan to learn more about await-async and fetch properties
+
+04/23 (Mac) 4 hours:
+    - resolved fetch issues with a componentDidMount() and a promise on <Table>
+    - used axios.get() instead of fetch() SO THAT Jest now works
+
 Questions:
     - sudo
     - .bash & .bashrc & .zshrc
